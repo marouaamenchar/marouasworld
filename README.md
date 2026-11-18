@@ -14,3 +14,11 @@ Ik heb gekozen voor de domeinnaam **marouasworld.nl**. Deze heb ik via TransIP g
 Ik gebruik VSCodium om mijn website aan te passen. Hiervoor open ik het index.html bestand en verander ik de HTML-code. Daarna sla ik mijn wijzigingen op en maak ik een commit via Source Control. Vervolgens klik ik op 'Sync Changes' om de wijzigingen naar GitHub te sturen. GitHub Pages zorgt er daarna voor dat mijn aangepaste website online komt te staan.
 
 In het begin lukte het mij niet om mijn wijzigingen op de website te zien. Uiteindelijk kwam ik erachter dat ik mijn wijzigingen nog moest synchroniseren met GitHub. Nadat ik dit had gedaan, verscheen mijn aangepaste titel wel op de website.
+
+Learning Log - 16 november 2026
+
+1. Leg uit wat een digital garden is en waarom dat anders is dan een regulieren website.
+
+Een digital garden is voor iedereen anders, het is een plek waar jij informatie kunt delen die jij belangrijk vind. Het hoeft niet perse "informatie" te zijn, het mag ook gwn gevoelens of gedachten gangen zijn die jij besluit te delen. Een regulieren website heeft meestal een
+
+2.
