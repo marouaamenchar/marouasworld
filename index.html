@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,24 +11,30 @@
 
     <!-- Voeg jouw eigen domein toe in data-page -->
     <script
-      data-page="https://example.com"
+      data-page="https://marouasworld.nl"
       src="./scripts/main.js"
       defer
     ></script>
   </head>
   <body>
     <header>
-      <h1>Maroua's World ♡</h1>
+      <h1>Maroua's World</h1>
+      <p class="subtitle">♡ Est. 2004 ♡</p>
+
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="https://github.com/account/repo">Learning Log</a></li>
+          <li>
+            <a href="https://github.com/marouaamenchar/marouasworld#readme"
+              >Learning Log</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <nav class="desktop-menu" aria-label="Ontdek mijn wereld">
+      <nav class="desktop-menu" aria-label="Explore my world">
         <h2>Explore My World ♡</h2>
 
         <ul>
@@ -40,15 +46,21 @@
         </ul>
       </nav>
       <section class="welcome-window">
-        <h2>♡ Welcome to Maroua's World!</h2>
+        <h2>♡ Welcome!</h2>
 
-        <p>
-          Welcome to my personal corner of the internet! Here you'll find
-          everything I love, from music and movies to books, games and little
-          memories.
-        </p>
-
-        <p>Feel free to explore my world ♡</p>
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <h3>Hi! I'm Maroua ♡</h3>
+            <p>
+              Welcome to my digital garden — a little corner of the internet
+              where I collect the things I love.
+            </p>
+            <p>
+              From music and movies to books, games and little memories. Feel
+              free to explore my world!
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="music-window">
@@ -81,32 +93,203 @@
         </p>
       </section>
       <section id="music" class="content-window">
-        <h2>♫ My Music</h2>
-        <p>
-          Music is a big part of my world. Here I collect my favorite artists,
-          albums and songs.
-        </p>
+        <h2>♫ On Repeat ♡</h2>
+        <p>A little bit of everything I've been listening to lately.</p>
+
+        <ol class="playlist">
+          <li>Slayyyter – brand new chanel$</li>
+          <li>Justin Bieber – Swap It Out</li>
+          <li>Slayyyter – i think he's got a girl</li>
+          <li>Fleetwood Mac – Landslide</li>
+          <li>Justin Bieber – SPEED DEMON</li>
+          <li>Kelly Clarkson – Breakaway</li>
+          <li>Lizzy McAlpine – Pushing It Down and Praying</li>
+          <li>Ethel Cain – Sun Bleached Flies</li>
+          <li>Olivia Rodrigo – Can't Catch Me Now</li>
+          <li>Radiohead – No Surprises</li>
+          <li>The Neighbourhood – R.I.P. 2 My Youth</li>
+          <li>Ethel Cain – Fuck Me Eyes</li>
+          <li>Chase Atlantic – Falling</li>
+          <li>Saint Levant – Do You Love Me?</li>
+          <li>Ethel Cain – Strangers</li>
+        </ol>
       </section>
 
       <section id="movies" class="content-window">
         <h2>☆ My Movies</h2>
-        <p>
-          A collection of my favorite movies and series, from childhood
-          favorites to stories I could watch forever.
-        </p>
+        <p>A little collection of movies I love ♡</p>
+
+        <ul class="collection-grid">
+          <li>
+            <img
+              src="./images/movies/back-to-the-future.jpg"
+              alt="Back to the Future movie poster"
+            />
+            <h3>Back to the Future</h3>
+            <p>1985</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/movies/catching-fire.jpg"
+              alt="The Hunger Games: Catching Fire movie poster"
+            />
+            <h3>The Hunger Games: Catching Fire</h3>
+            <p>2013</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/movies/prisoner-of-azkaban.jpg"
+              alt="Harry Potter and the Prisoner of Azkaban movie poster"
+            />
+            <h3>Harry Potter and the Prisoner of Azkaban</h3>
+            <p>2004</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/movies/the-shining.jpg"
+              alt="The Shining movie poster"
+            />
+            <h3>The Shining</h3>
+            <p>1980</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/movies/eternal-sunshine.jpg"
+              alt="Eternal Sunshine of the Spotless Mind movie poster"
+            />
+            <h3>Eternal Sunshine of the Spotless Mind</h3>
+            <p>2004</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/movies/silence-of-the-lambs.jpg"
+              alt="The Silence of the Lambs movie poster"
+            />
+            <h3>The Silence of the Lambs</h3>
+            <p>1991</p>
+          </li>
+        </ul>
       </section>
 
       <section id="books" class="content-window">
-        <h2>✧ My Books</h2>
-        <p>
-          My little digital bookshelf, filled with books I've read, loved and
-          want to read.
-        </p>
+        <h2>✧ My Books ♡</h2>
+        <p>A little collection of books I love ♡</p>
+
+        <ul class="collection-grid">
+          <li>
+            <img
+              src="./images/books/the-perks-of-being-a-wallflower.jpg"
+              alt="Book cover of The Perks of Being a Wallflower"
+            />
+            <h3>The Perks of Being a Wallflower</h3>
+            <p>Stephen Chbosky</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/books/a-thousand-splendid-suns.jpg"
+              alt="Book cover of A Thousand Splendid Suns"
+            />
+            <h3>A Thousand Splendid Suns</h3>
+            <p>Khaled Hosseini</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/books/the-kite-runner.jpg"
+              alt="Book cover of The Kite Runner"
+            />
+            <h3>The Kite Runner</h3>
+            <p>Khaled Hosseini</p>
+          </li>
+
+          <li>
+            <img src="./images/books/carrie.jpg" alt="Book cover of Carrie" />
+            <h3>Carrie</h3>
+            <p>Stephen King</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/books/doctor-sleep.jpg"
+              alt="Book cover of Doctor Sleep"
+            />
+            <h3>Doctor Sleep</h3>
+            <p>Stephen King</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/books/the-ethnic-cleansing-of-palestine.jpg"
+              alt="Book cover of The Ethnic Cleansing of Palestine"
+            />
+            <h3>The Ethnic Cleansing of Palestine</h3>
+            <p>Ilan Pappé</p>
+          </li>
+        </ul>
       </section>
 
       <section id="games" class="content-window">
-        <h2>♥ My Games</h2>
-        <p>My favorite games, characters and gaming memories.</p>
+        <h2>♥ My Games ♡</h2>
+        <p>A little collection of games I enjoy playing ♡</p>
+
+        <ul class="collection-grid">
+          <li>
+            <img
+              src="./images/games/spider-man.jpg"
+              alt="Marvel's Spider-Man game cover"
+            />
+            <h3>Marvel's Spider-Man</h3>
+            <p>PlayStation</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/games/spider-man-miles-morales.jpg"
+              alt="Spider-Man Miles Morales game cover"
+            />
+            <h3>Spider-Man: Miles Morales</h3>
+            <p>PlayStation</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/games/mario-wonder.jpg"
+              alt="Super Mario Bros. Wonder game cover"
+            />
+            <h3>Super Mario Bros. Wonder</h3>
+            <p>Nintendo Switch</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/games/mario-deluxe.jpg"
+              alt="New Super Mario Bros. U Deluxe game cover"
+            />
+            <h3>New Super Mario Bros. U Deluxe</h3>
+            <p>Nintendo Switch</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/games/mario-kart.jpg"
+              alt="Mario Kart 8 Deluxe game cover"
+            />
+            <h3>Mario Kart 8 Deluxe</h3>
+            <p>Nintendo Switch</p>
+          </li>
+
+          <li>
+            <img src="./images/games/stray.jpg" alt="Stray game cover" />
+            <h3>Stray</h3>
+            <p>Nintendo Switch</p>
+          </li>
+        </ul>
       </section>
     </main>
 
