@@ -240,3 +240,19 @@ Daarnaast heb ik rekening gehouden met constraints, zoals het maximale aantal in
 **Reflectie**
 
 Ik ben tevreden met de indeling en structuur van mijn ontwerp. Het is nog geen volledig uitgewerkt of interactief prototype, maar het laat wel duidelijk zien hoe het formulier bedoeld is te werken.
+
+### Huidige status – einde Sprint 1
+
+Mijn README is op dit moment nog niet volledig bijgewerkt. In het begin vond ik het lastig om te bepalen hoe ik mijn proces en practicums het beste kon documenteren. Hierdoor heb ik voornamelijk prioriteit gegeven aan het ontwerpen en bouwen van mijn Digital Garden.
+
+Ik heb meerdere practicums uitgevoerd die ik nog moet toevoegen aan mijn learning log. Ook ontbreken er nog afbeeldingen, screenshots en andere onderdelen van mijn ontwerpproces. Daarnaast moet ik een aantal practicums nog afronden.
+
+Mijn volgende stappen zijn:
+
+- Mijn uitgevoerde practicums documenteren.
+- De resterende practicums afronden.
+- Afbeeldingen van mijn Visual Research, schetsen en styleguide toevoegen.
+- Mijn ontwerpkeuzes verder onderbouwen met Webby vocabulaire.
+- Mijn Digital Garden verder ontwikkelen op het gebied van toegankelijkheid, responsive design en interactie.
+
+Ik ga mijn best doen om deze achterstand zo snel mogelijk in te halen.
